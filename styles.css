@@ -13,9 +13,9 @@
     --primary-text-color: #181820;
     --secondary-text-color: #5c5c62;
     --durability-text-color: #6a737d9c;
-    --icon-color: #6a737d;
-    --border-color: #ff9a0045;
-    --text-decoration-color: #ff9a00;
+    --icon-color: #6b8cb3;
+    --border-color: #0d00ff45;
+    --text-decoration-color: #5900ff;
   }
   
   .container {
@@ -127,11 +127,11 @@
 
 .contact-info__avatar {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border: 3px solid;
-  border-color: var(--text-decoration-color);
+  border-color: var(--icon-color);
 }
 
 /*Intro and skills styles*/
@@ -158,7 +158,7 @@
   
   .intro_text {
     color: var(--secondary-text-color);
-    text-align: justify;
+    text-align: center;
   }
   
   .skills__header {
